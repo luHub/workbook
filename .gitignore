@@ -1,5 +1,8 @@
- Compiled class file
+# Compiled class file
 *.class
+
+# Specific files #
+/.settings
 
 # Log file
 *.log

@@ -3,6 +3,11 @@
 
 # Specific files #
 /.settings
+/questions
+/target
+/USER
+/.classpath
+/.project
 
 # Log file
 *.log

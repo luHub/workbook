@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
  
-	@Override
+	@Override 
 	public void start(Stage primaryStage) {
 			Parent root;
 			try {

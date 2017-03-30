@@ -24,14 +24,17 @@ Basically the idea goes as follows, a client server architecture:
 
 2)Project Requirements
 ----------------------
+-Question Module []
+-Lean Module(Not Yet Developed)
+-Code Runner (Not yet Developed)
 
 3)Architecture
 --------------
-MVC / Client-Server
+MVC
 
 4)Work Methodology
 ------------------- 
-*TDD
+"Just program the modules"
 
 5)Copyright Information
 ----------------------- 

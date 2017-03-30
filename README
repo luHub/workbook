@@ -1,0 +1,38 @@
+# LearningTool: 
+
+Basically the idea goes as follows, a client server architecture:
+
++----------------------------------------------------+
+|                                                    |
+|  +--------------+ +-------------+ +-------------+  |
+|  |              | |             | |             |  |
+|  |Question      | |  Learn      | | Code        |  |
+|  |Module        | |  Module     | | Runner      |  | 
+|  |              | |             | |             |  |   
+|  |              | |             | |             |  |
+|  |              | |             | |             |  |
+|  +--------------+ +-------------+ +-------------+  |
+|                   Workbook Module                  |
++----------------------------------------------------+
+
+1)Updates
+---------
+
+### Update 30/03/2017
+
+-Release as minimun viable product.
+
+2)Project Requirements
+----------------------
+
+3)Architecture
+--------------
+MVC / Client Server
+
+4)Work Methodology
+------------------- 
+*TDD
+
+5)Copyright Information
+----------------------- 
+Code is under [https://www.apache.org/licenses/LICENSE-2.0.txt]

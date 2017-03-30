@@ -2,8 +2,9 @@
 # Workbook Module:
 
 # Intro
- With the advances in technology we got overwhelmed suddenly overwhelmed by a lot of information everyday. Our personal mail, work mail, student mail,
- whatsapp, student blackboard, software documentation of at least 3 programming languages opened at the sametime, stackoverflow 200 tabs 
+ With the advances in technology we got overwhelmed suddenly overwhelmed by a lot of information everyday.
+ Our personal mail, work mail, student mail, whatsapp, student blackboard, software documentation of at least 3 programming languages opened at the sametime, stackoverflow 200 tabs 
+ 
  looking for a bug solution in your code, Ebooks, Pdfs, IDEs, Slack groups of different projects, plus the temptation to open youtube or 9gag. 
  Everything interrupting at the same time and distracting us from our main activity, don't allowing us to focus
  and to properly manage information. As human beings is know that we are not good to multitask (Text and Drive for example) so that

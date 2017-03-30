@@ -45,11 +45,11 @@ that presentation of 5 years ago, let's check this folder. You follow my example
 
 -Release as minimum viable product.
 
-2)Project Requirements
-----------------------
--Question Module []
--Lean Module(Not Yet Developed)
--Code Runner (Not yet Developed)
+2)Project Modules:
+------------------
+*Question Module (Minimun Viable Product)
+*Lean Module(Not Yet Developed)
+*Code Runner (Not yet Developed)
 
 3)Architecture
 --------------

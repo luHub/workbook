@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import commons.WorkbookIO;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -50,6 +51,13 @@ public class WorkbookpanelController {
     
     @FXML
     private void initialize(){
+    	
+    	try {
+			WorkbookIO.createWorkbookIfNotExists("user", "workbook");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     		
     	codeToggleButton.setDisable(true);
     	
@@ -84,13 +92,24 @@ public class WorkbookpanelController {
 
 	private void addPanel(String panelId) {
 		try {
-			final Pane ap = fxmlLoader.loadQuestionPane();
-			ap.setId(panelId);
-			workAreaHbox.setHgrow(ap, Priority.ALWAYS);
-			workAreaVbox.setVgrow(ap, Priority.ALWAYS);
-			workAreaHbox.getChildren().addAll(ap);
-			ap.setPadding(new Insets(6, 6, 6, 6));
-			WorkbookLayout.setDragForLayerLayer(ap);
+			if(panelId.equals(QUESTION_ID)){
+				final Pane ap = fxmlLoader.loadQuestionPane();
+				ap.setId(panelId);
+				workAreaHbox.setHgrow(ap, Priority.ALWAYS);
+				workAreaVbox.setVgrow(ap, Priority.ALWAYS);
+				workAreaHbox.getChildren().addAll(ap);
+				ap.setPadding(new Insets(6, 6, 6, 6));
+				WorkbookLayout.setDragForLayerLayer(ap);	
+			}else 
+				if(panelId.equals(INFO_ID)){
+				final Pane ap = fxmlLoader.loadInfoPane();
+				ap.setId(panelId);
+				workAreaHbox.setHgrow(ap, Priority.ALWAYS);
+				workAreaVbox.setVgrow(ap, Priority.ALWAYS);
+				workAreaHbox.getChildren().addAll(ap);
+				ap.setPadding(new Insets(6, 6, 6, 6));
+				WorkbookLayout.setDragForLayerLayer(ap);
+			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

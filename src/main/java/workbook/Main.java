@@ -2,7 +2,7 @@ package workbook;
 
 import java.io.IOException;
 
-import commons.WorkbookManager;
+import commons.WorkbookIO;
 import commons.flashcards.FlashCardIO;
 import java.io.IOException;
 

@@ -19,6 +19,13 @@
 		<artifactId>flashcardfx</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
+	 
+	
+	<dependency>
+	<groupId>com.heguer.info</groupId>
+	<artifactId>info</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	</dependency>
 		
   </dependencies>
     <properties>

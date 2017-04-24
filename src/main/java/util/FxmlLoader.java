@@ -3,7 +3,7 @@ package util;
 import java.io.IOException;
 
 import flashcardfx.QuestionPane;
-import info.InfoPane;
+import info.InfoPanel;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
 import workbook.LayerController;
@@ -28,7 +28,7 @@ public class FxmlLoader {
 	
 	public Pane loadInfoPane() throws IOException
 	{
-		 InfoPane ip = new InfoPane();
+		 InfoPanel ip = new InfoPanel();
 		 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/"+layer+".fxml"));
 		 Pane pane =(Pane)fxmlLoader.load();
 		 LayerController layerController =fxmlLoader.getController();
